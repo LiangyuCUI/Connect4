@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 570px;
+  height: 480px;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: rgb(125, 137, 245);
+}
+
+.cell {
+  /* border:5px solid black; */
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+  /* outline:  5px solid black; */
+}
+
+.cell:hover {
+  background-color: rgb(75, 204, 255);
+}
+head {
+  background-color: rgba(139, 139, 139, 0.904);
+}
+body {
+  background-color: rgba(131, 129, 129, 0.856);
+}
+.player {
+  font-family: cursive;
+}
+.lava {
+  height: 100px;
+  width: 105px;
+}
+.button {
+  
+  background-color: #e7f436;
+  padding: 16px;
+}
